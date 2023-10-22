@@ -1,8 +1,6 @@
 """ Expense Tracker """
 import streamlit as st
 import pandas as pd
-import plotly.express as px
-
 
 @st.cache_data
 def convert_df(df):
@@ -76,4 +74,3 @@ with col1:
 with col2:
    st.header("Line Chart")
    st.line_chart(edit_expense_df, x = "Date", y = "Amount",color=['#97C1A9'])
-   
