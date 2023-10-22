@@ -70,9 +70,10 @@ st.sidebar.markdown("""---""")
 
 col1, col2 = st.columns(2)
 with col1:
-   st.header("Bar_Chart")
-   st.bar_chart(edit_expense_df, x = "Type", y = "Amount")
+   st.header("Bar Chart")
+   st.bar_chart(edit_expense_df, x = "Type", y = "Amount",color=['#FF968A'])
 
 with col2:
-   st.header("A dog")
-   st.image("https://static.streamlit.io/examples/dog.jpg")
+   st.header("Line Chart")
+   st.line_chart(edit_expense_df, x = "Date", y = "Amount",color=['#97C1A9'])
+   

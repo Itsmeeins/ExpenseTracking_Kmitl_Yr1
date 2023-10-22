@@ -1,4 +1,5 @@
 [theme]
 base="light"
-primaryColor="orange"
+backgroundColor="#FEE1E8"
+secondaryBackgroundColor="#ECD5E3"
 font="monospace"
