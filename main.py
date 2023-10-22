@@ -16,7 +16,7 @@ st.set_page_config(page_title="Expense Tracker",
 # Header
 st.markdown("""
 # Expense Tracker 👛🧾💵💳
-This Web-App help you manange your expense in daily life by providing infomation such as pie chart graph etc. below.
+This Web-App help you manange your expense in daily life by providing infomation such as bar chart and line chart below.
 """)
 
 # Sidebar
